@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Add Book Details</h1><hr>
+<form action="AddBookServlet" method="GET">
+Book ID<input type="text" name="id"><br>
+Book Name<input type="text" name="name"><br>
+Book Price<input type="text" name="price"><br>
+Book Author<input type="text" name="author"><br>
+           <input type="submit" id="submit" value="Add">
+</form>
+</body>
+</html>
